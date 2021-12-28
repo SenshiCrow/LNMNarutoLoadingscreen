@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loadingscreen</title>
+</head>
+<body>
+    <div class="page">
+        <section id="pfps">
+            <img class="pfp" src="./senshi.gif" alt="pfp Senshi" />
+            <img class="pfp" src="./asklop.gif" alt="pfp Asklop" />
+            <img class="pfp" src="./axel.png" alt="pfp Axel" />
+        </section>
+    </div>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .page {
+            width: 100vw;
+            height: 100vh;
+            background-image: url("./loadingscreen.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .pfp {
+            max-width: 85px;
+            border-radius: 50%;
+        }
+
+        #pfps {
+            position: absolute;
+            top: 15%;
+            left: 54%;
+            display: block;
+            max-width: 90px;
+            max-height: fit-content;
+        }
+    </style>
+</body>
+</html>
